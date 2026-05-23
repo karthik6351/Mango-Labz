@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, viewport-fit=cover" />
+  <title>Mango Labz — Affordable Digital Solutions for Every Business</title>
+  <meta name="description" content="Mango Labz delivers low-cost, premium website design, video editing, AI agents, voice agents, digital marketing and IT solutions from Hyderabad, India." />
+  <meta name="keywords" content="website design, video editing, AI agents, voice agents, digital marketing, Instagram management, IT solutions, low cost, Hyderabad, Mango Labz" />
+  <meta name="author" content="Mango Labz" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0a0a0f" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mango Labz — Affordable Digital Solutions" />
+  <meta property="og:description" content="Website Design · Video Editing · AI Agents · Voice Agents · Digital Marketing · IT Solutions — at prices that won't break the bank." />
+  <meta property="og:url" content="https://mangolabz.com" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="public/assets/MangoLogo.png" />
+  <link rel="apple-touch-icon" href="public/assets/MangoLogo.png" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- =====================================================
+       VIDEO INTRO
+       ===================================================== -->
+  <div id="video-intro">
+    <video id="intro-video" preload="auto" playsinline autoplay>
+      <source src="public/assets/intro-video.mp4" type="video/mp4" />
+    </video>
+
+    <button class="skip-btn" id="skip-btn">Skip →</button>
+  </div>
+
+  <!-- =====================================================
+       NAVBAR
+       ===================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <a href="#hero" class="logo">
+        <img src="public/assets/MangoLogo.png" alt="Mango Labz Logo" class="logo-icon" />
+        <span class="logo-text">
+          <span class="mango">Mango</span> <span class="labz">Labz</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-btn">
+            Services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <div class="nav-dropdown-content">
+              <a href="#services" class="nav-dropdown-item">Website Design</a>
+              <a href="#services" class="nav-dropdown-item">Video Editing</a>
+              <a href="#services" class="nav-dropdown-item">AI Agents</a>
+              <a href="#services" class="nav-dropdown-item">Voice Agents</a>
+              <a href="#services" class="nav-dropdown-item">Digital Marketing</a>
+              <a href="#services" class="nav-dropdown-item">Instagram Management</a>
+              <a href="#services" class="nav-dropdown-item">IT Solutions</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#team" class="nav-link">Team</a>
+        <a href="#careers" class="nav-link">Careers</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary">Get a Quote</a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav" id="mobile-nav">
+    <div class="mobile-nav-content">
+      <div class="mobile-nav-header">
+        <a href="#hero" class="logo">
+          <img src="public/assets/MangoLogo.png" alt="Mango Labz" class="logo-icon" />
+          <span class="logo-text"><span class="mango">Mango</span> <span class="labz">Labz</span></span>
+        </a>
+        <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M18 6 6 18"/><path d="M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="#hero" class="mobile-nav-link active">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#enhance" class="mobile-nav-link">Enhance Your Project</a>
+        <a href="#why-us" class="mobile-nav-link">Why Us</a>
+        <a href="#team" class="mobile-nav-link">Team</a>
+        <a href="#careers" class="mobile-nav-link">Careers</a>
+        <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+      <div class="mobile-nav-divider"></div>
+      <div class="mobile-nav-cta">
+        <a href="#contact" class="btn btn-primary">Get a Quote</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================
+       MAIN CONTENT
+       ===================================================== -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-orb hero-orb-3"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="pulse-dot"></span>
+          <span>Affordable Digital Solutions for Every Business</span>
+        </div>
+
+        <h1 class="reveal stagger-1">
+          Empowering Businesses with<br />
+          <span class="text-gradient">Smart Digital</span> &amp; <span class="text-gradient">Creative Solutions</span>
+        </h1>
+
+        <p class="hero-subtitle reveal stagger-2">
+          Website Design · Video Editing · AI Agents · Voice Agents · Marketing · IT Solutions
+        </p>
+
+        <div class="hero-ctas reveal stagger-3">
+          <a href="#contact" class="btn btn-primary">
+            Get a Quote
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#services" class="btn btn-secondary">Explore Services</a>
+          <a href="#contact" class="btn btn-ghost">Consult Our Experts</a>
+        </div>
+
+        <div class="hero-stats reveal stagger-4">
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="stat-number" data-target="50">0</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+            </div>
+            <div class="stat-number" data-target="120">0</div>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+            </div>
+            <div class="stat-number" data-target="200">0</div>
+            <div class="stat-label">Campaigns Run</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+            </div>
+            <div class="stat-number" data-target="2">0</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SNIPPET (between Hero and Services) -->
+    <section id="about" class="enhance" style="padding: 80px 0;">
+      <div class="container text-center">
+        <span class="section-badge reveal"><span class="pulse-dot"></span> Who We Are</span>
+        <h2 class="section-title reveal stagger-1">We Are <span class="text-gradient">Mango Labz</span></h2>
+        <p class="section-subtitle reveal stagger-2" style="max-width:720px;">
+          A passionate team from Hyderabad building digital experiences that matter. We combine creativity with cutting-edge technology to help startups and businesses establish a powerful online presence — all at prices that won't break the bank. From stunning websites to intelligent AI agents, we turn your vision into reality.
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge reveal"><span class="pulse-dot"></span> Our Services</span>
+          <h2 class="section-title reveal stagger-1">Everything Your Business Needs to <span class="text-gradient">Succeed</span></h2>
+          <p class="section-subtitle reveal stagger-2">From stunning websites to intelligent AI agents — we provide end-to-end digital solutions at low cost.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Website Design -->
+          <div class="service-card reveal stagger-1">
+            <div class="service-icon orange">
+              <svg viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+            </div>
+            <h3>Website Design</h3>
+            <p class="service-tagline">Beautiful Websites That Convert</p>
+            <p>Custom, responsive, SEO-optimized websites that captivate visitors and turn them into loyal customers. From landing pages to full-stack web apps.</p>
+            <span class="learn-more">Learn More <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </div>
+
+          <!-- 2. Video Editing -->
+          <div class="service-card reveal stagger-2">
+            <div class="service-icon purple">
+              <svg viewBox="0 0 24 24"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
+            </div>
+            <h3>Video Editing</h3>
+            <p class="service-tagline">Cinematic Edits That Captivate</p>
+            <p>Professional video editing for YouTube, reels, promos, ads, and brand stories. Color grading, motion graphics, and sound design included.</p>
+            <span class="learn-more">Learn More <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </div>
+
+          <!-- 3. AI Agents -->
+          <div class="service-card reveal stagger-3">
+            <div class="service-icon green">
+              <svg viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
+            </div>
+            <h3>AI Agents</h3>
+            <p class="service-tagline">Automate. Engage. Scale.</p>
+            <p>Smart AI-powered chatbots and assistants that automate customer support, lead generation, and workflow tasks 24/7.</p>
+            <span class="learn-more">Learn More <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </div>
+
+          <!-- 4. Voice Agents -->
+          <div class="service-card reveal stagger-4">
+            <div class="service-icon blue">
+              <svg viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+            </div>
+            <h3>Voice Agents</h3>
+            <p class="service-tagline">Conversations That Convert</p>
+            <p>Intelligent AI voice bots for inbound/outbound calls, customer support, appointment booking, and sales — sounding naturally human.</p>
+            <span class="learn-more">Learn More <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </div>
+
+          <!-- 5. Digital Marketing -->
+          <div class="service-card reveal stagger-5">
+            <div class="service-icon rose">
+              <svg viewBox="0 0 24 24"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg>
+            </div>
+            <h3>Digital Marketing</h3>
+            <p class="service-tagline">Growth, Guaranteed</p>
+            <p>SEO, Google & Meta Ads, PPC campaigns, content strategy, and social media management that deliver real, measurable results.</p>
+            <span class="learn-more">Learn More <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </div>
+
+          <!-- 6. Instagram Management -->
+          <div class="service-card reveal stagger-6">
+            <div class="service-icon cyan">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </div>
+            <h3>Instagram Management</h3>
+            <p class="service-tagline">Grow Your Brand on Instagram</p>
+            <p>Complete Instagram page handling — content creation, scheduling, hashtag strategy, reels, stories, engagement growth, and analytics reporting.</p>
+            <span class="learn-more">Learn More <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </div>
+
+          <!-- 7. IT Solutions -->
+          <div class="service-card reveal stagger-7">
+            <div class="service-icon amber">
+              <svg viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+            </div>
+            <h3>IT Solutions</h3>
+            <p class="service-tagline">End-to-End Tech Expertise</p>
+            <p>Full-stack development, cloud infrastructure, API integrations, database management, and technical consulting for modern businesses.</p>
+            <span class="learn-more">Learn More <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENHANCE YOUR PROJECT SECTION -->
+    <section class="enhance" id="enhance">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge reveal"><span class="pulse-dot"></span> Level Up</span>
+          <h2 class="section-title reveal stagger-1">How We Enhance Your <span class="text-gradient">Existing Project</span></h2>
+          <p class="section-subtitle reveal stagger-2">Already have a website, app, or brand? We'll take it to the next level with our expertise.</p>
+        </div>
+
+        <div class="enhance-grid">
+          <div class="enhance-card reveal stagger-1">
+            <div class="enhance-number">01</div>
+            <div>
+              <h3>Website Redesign & Optimization</h3>
+              <p>Modernize your existing site with better UI/UX, faster load times, mobile responsiveness, and improved SEO rankings. We make your site look and perform like a premium product.</p>
+            </div>
+          </div>
+
+          <div class="enhance-card reveal stagger-2">
+            <div class="enhance-number">02</div>
+            <div>
+              <h3>AI & Automation Integration</h3>
+              <p>Add intelligent chatbots, voice assistants, or automated workflows to your current platform. Reduce manual tasks and let AI handle customer interactions around the clock.</p>
+            </div>
+          </div>
+
+          <div class="enhance-card reveal stagger-3">
+            <div class="enhance-number">03</div>
+            <div>
+              <h3>Video Content Refresh</h3>
+              <p>Revitalize your brand's video content — re-edit existing footage, add motion graphics, new intros, and optimized formats for every platform from YouTube to Instagram Reels.</p>
+            </div>
+          </div>
+
+          <div class="enhance-card reveal stagger-4">
+            <div class="enhance-number">04</div>
+            <div>
+              <h3>Social Media & Marketing Boost</h3>
+              <p>Supercharge your online presence with data-driven Instagram strategy, targeted ad campaigns, content calendars, and engagement growth tactics that deliver real ROI.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-us" id="why-us">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge reveal"><span class="pulse-dot"></span> Why Mango Labz</span>
+          <h2 class="section-title reveal stagger-1">Why Businesses Choose <span class="text-gradient">Mango Labz</span></h2>
+          <p class="section-subtitle reveal stagger-2">We combine creativity, technology, and affordability. Here's what sets us apart.</p>
+        </div>
+
+        <div class="why-us-grid">
+          <div class="why-item reveal stagger-1">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div>
+              <h3>Low-Cost Services</h3>
+              <p>Premium-quality digital solutions at startup-friendly pricing. Maximum value without burning through your budget.</p>
+            </div>
+          </div>
+
+          <div class="why-item reveal stagger-2">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+            </div>
+            <div>
+              <h3>Cutting-Edge Tech</h3>
+              <p>We leverage the latest AI, automation, and modern frameworks to give your business a competitive advantage.</p>
+            </div>
+          </div>
+
+          <div class="why-item reveal stagger-3">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Fast Delivery</h3>
+              <p>Rapid turnaround times without compromising quality. We move fast so your business can launch faster.</p>
+            </div>
+          </div>
+
+          <div class="why-item reveal stagger-4">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            </div>
+            <div>
+              <h3>Client-Centric Approach</h3>
+              <p>Your success is our priority. We tailor every solution to match your specific goals and challenges.</p>
+            </div>
+          </div>
+
+          <div class="why-item reveal stagger-5">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg>
+            </div>
+            <div>
+              <h3>Scalable Solutions</h3>
+              <p>Our services grow with you — from MVP to enterprise-grade, we have the tools and talent to scale.</p>
+            </div>
+          </div>
+
+          <div class="why-item reveal stagger-6">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+            </div>
+            <div>
+              <h3>Innovation Driven</h3>
+              <p>We don't just follow trends — we create them. Constantly pushing boundaries of what's possible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEET THE TEAM -->
+    <section class="team" id="team">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge reveal"><span class="pulse-dot"></span> Our Team</span>
+          <h2 class="section-title reveal stagger-1">Meet the <span class="text-gradient">Founders</span></h2>
+          <p class="section-subtitle reveal stagger-2">The passionate duo behind Mango Labz, driving innovation from Hyderabad.</p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-card reveal stagger-1">
+            <img src="public/assets/Yogeshwara.jpeg" alt="K. Yogeshwara — Co-Founder & CEO of Mango Labz" class="team-avatar" />
+            <h3>K. Yogeshwara</h3>
+            <p class="team-role">Co-Founder & CEO</p>
+            <a href="tel:+919959963164" class="team-phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +91 99599 63164
+            </a>
+          </div>
+
+          <div class="team-card reveal stagger-2">
+            <img src="public/assets/karthik.png" alt="G. Pavan Karthik — Co-Founder of Mango Labz" class="team-avatar" />
+            <h3>G. Pavan Karthik</h3>
+            <p class="team-role">Co-Founder</p>
+            <a href="tel:+916305244169" class="team-phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +91 63052 44169
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge reveal"><span class="pulse-dot"></span> Testimonials</span>
+          <h2 class="section-title reveal stagger-1">What Our <span class="text-gradient">Clients Say</span></h2>
+          <p class="section-subtitle reveal stagger-2">Real stories from businesses we've helped grow and transform.</p>
+        </div>
+
+        <div class="testimonial-wrapper reveal stagger-3">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card active" data-index="0">
+            <div class="testimonial-quote-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg>
+            </div>
+            <p class="testimonial-text">"Mango Labz completely transformed our online presence. Their website design was stunning and our traffic increased by 60% within two months. Best investment we've made!"</p>
+            <div class="testimonial-author">Arjun Mehta</div>
+            <div class="testimonial-role">Founder, UrbanBite Foods</div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card" data-index="1">
+            <div class="testimonial-quote-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg>
+            </div>
+            <p class="testimonial-text">"The AI chatbot they built for our e-commerce store handles 80% of customer queries automatically. Our support costs dropped significantly and customer satisfaction is at an all-time high."</p>
+            <div class="testimonial-author">Priya Sharma</div>
+            <div class="testimonial-role">CEO, ShopEase India</div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card" data-index="2">
+            <div class="testimonial-quote-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg>
+            </div>
+            <p class="testimonial-text">"Their video editing is top-notch. Our YouTube channel went from 500 to 10K subscribers in three months. The reels they create consistently go viral. Highly recommend!"</p>
+            <div class="testimonial-author">Vikram Reddy</div>
+            <div class="testimonial-role">Content Creator & Influencer</div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card" data-index="3">
+            <div class="testimonial-quote-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg>
+            </div>
+            <p class="testimonial-text">"Affordable, professional, and incredibly responsive. They handled our complete Instagram strategy and we gained 5K genuine followers in just two months. The ROI was phenomenal."</p>
+            <div class="testimonial-author">Sneha Patel</div>
+            <div class="testimonial-role">Owner, Bloom Boutique</div>
+          </div>
+
+          <!-- Controls -->
+          <div class="testimonial-controls">
+            <button class="testimonial-arrow" id="testimonial-prev" aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <div class="testimonial-dots" id="testimonial-dots">
+              <button class="testimonial-dot active" data-index="0" aria-label="Go to testimonial 1"></button>
+              <button class="testimonial-dot" data-index="1" aria-label="Go to testimonial 2"></button>
+              <button class="testimonial-dot" data-index="2" aria-label="Go to testimonial 3"></button>
+              <button class="testimonial-dot" data-index="3" aria-label="Go to testimonial 4"></button>
+            </div>
+            <button class="testimonial-arrow" id="testimonial-next" aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREERS SECTION -->
+    <section class="enhance" id="careers" style="background: var(--bg-primary);">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge reveal"><span class="pulse-dot"></span> Join Our Team</span>
+          <h2 class="section-title reveal stagger-1">Build Your Career at <span class="text-gradient">Mango Labz</span></h2>
+          <p class="section-subtitle reveal stagger-2">Join a team of passionate creators and innovators who are transforming businesses through technology and creativity.</p>
+        </div>
+
+        <!-- Job Listings -->
+        <div class="services-grid" style="margin-top: 48px;">
+          <!-- Job 1 -->
+          <div class="service-card reveal stagger-1">
+            <div style="margin-bottom:12px;"><span style="display:inline-block;padding:4px 12px;border-radius:9999px;font-size:0.7rem;font-weight:600;background:rgba(34,197,94,0.12);color:#22c55e;">Full-time</span></div>
+            <h3>Full Stack Developer</h3>
+            <p class="service-tagline">Build Scalable Web Applications</p>
+            <p>Experience with React, Node.js, and modern frameworks. Build responsive, high-performance web applications for our clients.</p>
+            <div style="display:flex;gap:16px;font-size:0.75rem;color:var(--text-muted);margin-top:8px;">
+              <span>📍 Hyderabad / Remote</span>
+              <span>⏰ Full-time</span>
+            </div>
+          </div>
+
+          <!-- Job 2 -->
+          <div class="service-card reveal stagger-2">
+            <div style="margin-bottom:12px;"><span style="display:inline-block;padding:4px 12px;border-radius:9999px;font-size:0.7rem;font-weight:600;background:rgba(34,197,94,0.12);color:#22c55e;">Full-time</span></div>
+            <h3>Video Editor</h3>
+            <p class="service-tagline">Create Cinematic Visual Stories</p>
+            <p>Proficiency in Premiere Pro, After Effects, and DaVinci Resolve. Create stunning videos, reels, and motion graphics.</p>
+            <div style="display:flex;gap:16px;font-size:0.75rem;color:var(--text-muted);margin-top:8px;">
+              <span>📍 Hyderabad / Remote</span>
+              <span>⏰ Full-time</span>
+            </div>
+          </div>
+
+          <!-- Job 3 -->
+          <div class="service-card reveal stagger-3">
+            <div style="margin-bottom:12px;"><span style="display:inline-block;padding:4px 12px;border-radius:9999px;font-size:0.7rem;font-weight:600;background:rgba(34,197,94,0.12);color:#22c55e;">Full-time</span></div>
+            <h3>AI / ML Engineer</h3>
+            <p class="service-tagline">Build Intelligent AI Agents</p>
+            <p>Knowledge of Python, LLMs, NLP, and conversational AI. Build smart chatbots and voice agents for businesses.</p>
+            <div style="display:flex;gap:16px;font-size:0.75rem;color:var(--text-muted);margin-top:8px;">
+              <span>📍 Hyderabad / Remote</span>
+              <span>⏰ Full-time</span>
+            </div>
+          </div>
+
+          <!-- Job 4 -->
+          <div class="service-card reveal stagger-4">
+            <div style="margin-bottom:12px;"><span style="display:inline-block;padding:4px 12px;border-radius:9999px;font-size:0.7rem;font-weight:600;background:rgba(34,197,94,0.12);color:#22c55e;">Full-time</span></div>
+            <h3>Digital Marketing Executive</h3>
+            <p class="service-tagline">Drive Growth with Data</p>
+            <p>Experience with SEO, Google Ads, Meta Ads, and social media strategy. Manage campaigns and deliver measurable results.</p>
+            <div style="display:flex;gap:16px;font-size:0.75rem;color:var(--text-muted);margin-top:8px;">
+              <span>📍 Hyderabad</span>
+              <span>⏰ Full-time</span>
+            </div>
+          </div>
+
+          <!-- Job 5 -->
+          <div class="service-card reveal stagger-5">
+            <div style="margin-bottom:12px;"><span style="display:inline-block;padding:4px 12px;border-radius:9999px;font-size:0.7rem;font-weight:600;background:rgba(59,130,246,0.12);color:#3b82f6;">Contract</span></div>
+            <h3>UI/UX Designer</h3>
+            <p class="service-tagline">Design Intuitive Interfaces</p>
+            <p>Proficiency in Figma and Adobe XD. Create beautiful, user-friendly interfaces and design systems for web and mobile.</p>
+            <div style="display:flex;gap:16px;font-size:0.75rem;color:var(--text-muted);margin-top:8px;">
+              <span>📍 Remote</span>
+              <span>⏰ Contract</span>
+            </div>
+          </div>
+
+          <!-- Job 6 -->
+          <div class="service-card reveal stagger-6">
+            <div style="margin-bottom:12px;"><span style="display:inline-block;padding:4px 12px;border-radius:9999px;font-size:0.7rem;font-weight:600;background:rgba(245,158,11,0.12);color:#f59e0b;">Internship</span></div>
+            <h3>Content & Social Media Intern</h3>
+            <p class="service-tagline">Learn, Create, Grow</p>
+            <p>Create engaging content for social media, manage Instagram pages, and learn digital marketing from industry experts.</p>
+            <div style="display:flex;gap:16px;font-size:0.75rem;color:var(--text-muted);margin-top:8px;">
+              <span>📍 Hyderabad</span>
+              <span>⏰ Internship</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Application Form -->
+        <div style="max-width:700px;margin:64px auto 0;">
+          <div class="text-center" style="margin-bottom:32px;">
+            <span class="section-badge reveal"><span class="pulse-dot"></span> Apply Now</span>
+            <h3 class="reveal stagger-1" style="font-size:1.5rem;margin-top:12px;">Submit Your Application</h3>
+            <p class="reveal stagger-2" style="color:var(--text-muted);margin-top:8px;font-size:0.95rem;">Interested in joining Mango Labz? Fill out the form below.</p>
+          </div>
+
+          <form class="contact-form reveal stagger-3" id="careers-form">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+              <div class="form-group" style="margin-bottom:0;">
+                <label for="career-name">Full Name <span style="color:#f43f5e;">*</span></label>
+                <input type="text" id="career-name" name="name" placeholder="Your full name" required />
+              </div>
+              <div class="form-group" style="margin-bottom:0;">
+                <label for="career-email">Email <span style="color:#f43f5e;">*</span></label>
+                <input type="email" id="career-email" name="email" placeholder="you@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="career-position">Position Applied For <span style="color:#f43f5e;">*</span></label>
+              <select id="career-position" name="position" required>
+                <option value="" disabled selected>Select a position</option>
+                <option value="full-stack-developer">Full Stack Developer</option>
+                <option value="video-editor">Video Editor</option>
+                <option value="ai-ml-engineer">AI / ML Engineer</option>
+                <option value="digital-marketing">Digital Marketing Executive</option>
+                <option value="ui-ux-designer">UI/UX Designer</option>
+                <option value="content-intern">Content & Social Media Intern</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="career-message">Cover Letter / Message</label>
+              <textarea id="career-message" name="message" placeholder="Tell us why you'd be a great fit..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Submit Application
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-status" id="careers-form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge reveal"><span class="pulse-dot"></span> Get In Touch</span>
+          <h2 class="section-title reveal stagger-1">Ready to Transform Your <span class="text-gradient">Business?</span></h2>
+          <p class="section-subtitle reveal stagger-2">Let's discuss how Mango Labz can help you achieve your digital goals — affordably.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Info -->
+          <div class="contact-info reveal-left">
+            <h3>Let's Build Something <span class="text-gradient">Amazing</span></h3>
+            <p>Whether you need a stunning website, engaging video content, smart AI assistants, or a complete digital marketing strategy — we've got you covered. Reach out and let's start your project today.</p>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <div class="contact-detail-label">Email</div>
+                <div class="contact-detail-value"><a href="mailto:mangolabsyt@gmail.com">mangolabsyt@gmail.com</a></div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-detail-label">Phone</div>
+                <div class="contact-detail-value"><a href="tel:+919959963164">+91 99599 63164</a></div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-detail-label">Location</div>
+                <div class="contact-detail-value">Hyderabad, India</div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </div>
+              <div>
+                <div class="contact-detail-label">Instagram</div>
+                <div class="contact-detail-value"><a href="https://www.instagram.com/mangolabs106/" target="_blank" rel="noopener">@mangolabs106</a></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form reveal-right" id="contact-form">
+            <div class="form-group">
+              <label for="form-name">Your Name</label>
+              <input type="text" id="form-name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email Address</label>
+              <input type="email" id="form-email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="form-service">Service Interested In</label>
+              <select id="form-service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="website-design">Website Design</option>
+                <option value="video-editing">Video Editing</option>
+                <option value="ai-agents">AI Agents</option>
+                <option value="voice-agents">Voice Agents</option>
+                <option value="digital-marketing">Digital Marketing</option>
+                <option value="instagram-management">Instagram Management</option>
+                <option value="it-solutions">IT Solutions</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="form-message">Your Message</label>
+              <textarea id="form-message" name="message" placeholder="Tell us about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#hero" class="logo">
+            <img src="public/assets/MangoLogo.png" alt="Mango Labz" class="logo-icon" />
+            <span class="logo-text"><span class="mango">Mango</span> <span class="labz">Labz</span></span>
+          </a>
+          <p>Affordable digital solutions for every business. Website Design, Video Editing, AI Agents, Voice Agents, Marketing & IT Solutions from Hyderabad.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/mangolabs106/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="mailto:mangolabsyt@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="tel:+919959963164" aria-label="Phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="#hero" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#services" class="footer-link">Services</a>
+          <a href="#enhance" class="footer-link">Enhance Project</a>
+          <a href="#team" class="footer-link">Team</a>
+          <a href="#careers" class="footer-link">Careers</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-column">
+          <h4>Services</h4>
+          <a href="#services" class="footer-link">Website Design</a>
+          <a href="#services" class="footer-link">Video Editing</a>
+          <a href="#services" class="footer-link">AI Agents</a>
+          <a href="#services" class="footer-link">Voice Agents</a>
+          <a href="#services" class="footer-link">Digital Marketing</a>
+          <a href="#services" class="footer-link">Instagram Management</a>
+          <a href="#services" class="footer-link">IT Solutions</a>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <a href="mailto:mangolabsyt@gmail.com" class="footer-link">mangolabsyt@gmail.com</a>
+          <a href="tel:+919959963164" class="footer-link">+91 99599 63164</a>
+          <a href="tel:+916305244169" class="footer-link">+91 63052 44169</a>
+          <span class="footer-link">Hyderabad, India</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mango Labz. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#hero">Privacy Policy</a>
+          <a href="#hero">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
