@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Name: ${name}\nEmail: ${email}\nService: ${service}\n\nMessage:\n${message}`
       );
 
-      window.location.href = `mailto:mangolabsyt@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:mangolabsyk@gmail.com?subject=${subject}&body=${body}`;
 
       // Show success message
       formStatus.textContent = '✓ Opening your email client... Thank you for reaching out!';
@@ -409,7 +409,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Career Application\n\nName: ${name}\nEmail: ${email}\nPosition: ${position}\n\nCover Letter:\n${message || 'N/A'}`
       );
 
-      window.location.href = `mailto:mangolabsyt@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:mangolabsyk@gmail.com?subject=${subject}&body=${body}`;
 
       // Show success message
       careersStatus.textContent = '✓ Opening your email client... Thank you for applying!';
